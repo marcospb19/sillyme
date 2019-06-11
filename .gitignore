@@ -1,0 +1,5 @@
+# Build files
+*.o
+
+# Application executable
+sillyme
