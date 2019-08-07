@@ -4,6 +4,16 @@
 #include <string.h>
 
 
+char* checkIfNotesDotTxtExists(char home[])
+{
+	FILE* file = fopen(home , "r");
+	if (file)
+		return true;
+
+	return false;
+}
+
+
 char* getNameOfUser()
 {
 	FILE* stream = popen("echo $USER" , "r");

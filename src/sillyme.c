@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 //          _ ____
 //     ___ (_) / /_ ____ _  ___
@@ -9,7 +8,13 @@
 // From https://github.com/marcospb19/sillyme
 
 
-int main()
+#include <stdio.h>
+#include "functions.h"
+
+
+int main(int argc, char* argv[])
 {
 	printf("Silly Me!\n");
+	printf("%s\n" , getNameOfUser());
+	printf("%s\n" , getHomePath());
 }

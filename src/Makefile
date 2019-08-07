@@ -1,6 +1,6 @@
 .DEFAULT_GOAL = sillyme
 CC = gcc
-Cflags = -Wall -Wextra -Werror -pedantic -std=c11
+Cflags = -Wall -Wextra -std=c11
 OBJECTS = sillyme.o functions.o
 
 
